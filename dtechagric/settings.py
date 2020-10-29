@@ -122,9 +122,9 @@ if os.getenv('GAE_APPLICATION', None):
         'default': {
             'ENGINE': 'django.db.backends.mysql',
             'HOST': '/cloudsql/dtechagricproject:us-central1:dtech',
-            'USER': 'dtech',
-            'PASSWORD': 'nixion117',
-            'NAME': 'dtech',
+            'USER': '*******',
+            'PASSWORD': '*********',
+            'NAME': '******',
         }
     }
 else:
@@ -139,9 +139,9 @@ else:
             'ENGINE': 'django.db.backends.mysql',
             'HOST': '127.0.0.1',
             'PORT': '3306',
-            'NAME': 'dtech',
-            'USER': 'dtech',
-            'PASSWORD': 'nixion117',
+            'NAME': '*******',
+            'USER': '********',
+            'PASSWORD': '*************',
         }
     }
 
